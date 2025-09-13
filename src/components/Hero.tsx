@@ -29,7 +29,7 @@ export const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-            Colosseum Integrated Business delivers cutting-edge AI solutions that transform 
+            Colosseum Global Integrated Business LLP delivers cutting-edge AI solutions that transform 
             how organizations operate, analyze data, and make decisions.
           </p>
           

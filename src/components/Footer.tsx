@@ -6,10 +6,12 @@ export const Footer = () => {
           {/* Company Info */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">C</span>
-              </div>
-              <span className="text-2xl font-bold">Colosseum Integrated Business</span>
+              <img 
+                src="/src/assets/cibiz-logo.png" 
+                alt="Colosseum Global Integrated Business LLP" 
+                className="h-10 w-auto"
+              />
+              <span className="text-xl font-bold">Colosseum Global Integrated Business LLP</span>
             </div>
             <p className="text-muted-foreground mb-6 leading-relaxed max-w-md">
               Pioneering the next generation of artificial intelligence solutions. 
@@ -50,7 +52,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-border/20 mt-12 pt-8 text-center text-muted-foreground">
-          <p>&copy; 2024 Colosseum Integrated Business. All rights reserved.</p>
+          <p>&copy; 2024 Colosseum Global Integrated Business LLP. All rights reserved.</p>
         </div>
       </div>
     </footer>

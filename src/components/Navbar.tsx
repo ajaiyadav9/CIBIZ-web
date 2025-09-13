@@ -11,10 +11,12 @@ export const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">C</span>
-            </div>
-            <span className="text-2xl font-bold">Colosseum Integrated Business</span>
+            <img 
+              src="/src/assets/cibiz-logo.png" 
+              alt="Colosseum Global Integrated Business LLP" 
+              className="h-12 w-auto"
+            />
+            <span className="text-xl font-bold hidden sm:block">Colosseum Global Integrated Business LLP</span>
           </div>
 
           {/* Desktop Navigation */}
