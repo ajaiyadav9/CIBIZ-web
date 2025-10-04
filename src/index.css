@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Modern AI-focused design system inspired by leading tech companies */
+
+@layer base {
+  :root {
+    /* Modern AI Color Palette - Matching Logo Theme */
+    --background: 220 45% 11%;
+    --foreground: 0 0% 98%;
+
+    --card: 220 40% 15%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 220 40% 15%;
+    --popover-foreground: 0 0% 98%;
+
+    /* Colosseum Brand Colors - Cyan Blue and Golden Theme from Logo */
+    --primary: 190 70% 50%; /* Cyan Blue from Logo */
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 190 65% 60%;
+
+    --secondary: 220 35% 18%; /* Dark Navy from Logo */
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 220 30% 25%;
+    --muted-foreground: 220 10% 70%;
+
+    --accent: 43 90% 65%; /* Golden from Logo */
+    --accent-foreground: 220 45% 11%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 30% 25%;
+    --input: 220 30% 25%;
+    --ring: 190 70% 50%;
+
+    /* Colosseum-Specific Design Tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(190 70% 50%), hsl(43 90% 65%));
+    --gradient-hero: linear-gradient(135deg, hsl(190 70% 50% / 0.15), hsl(43 90% 65% / 0.1));
+    --gradient-card: linear-gradient(145deg, hsl(220 40% 15%), hsl(220 35% 18%));
+    
+    --shadow-glow: 0 0 40px hsl(190 70% 50% / 0.4);
+    --shadow-card: 0 10px 30px hsl(220 45% 11% / 0.5);
+    --shadow-premium: 0 20px 60px hsl(43 90% 65% / 0.25);
+    
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 220 50% 8%;
+    --foreground: 0 0% 98%;
+
+    --card: 220 45% 12%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 220 45% 12%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 190 70% 50%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 190 65% 60%;
+
+    --secondary: 220 40% 15%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 220 35% 20%;
+    --muted-foreground: 220 15% 65%;
+
+    --accent: 43 90% 65%;
+    --accent-foreground: 220 50% 8%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 35% 20%;
+    --input: 220 35% 20%;
+    --ring: 190 70% 50%;
+
+    /* Dark mode gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(190 70% 50%), hsl(43 90% 65%));
+    --gradient-hero: linear-gradient(135deg, hsl(190 70% 50% / 0.2), hsl(43 90% 65% / 0.15));
+    --gradient-card: linear-gradient(145deg, hsl(220 45% 12%), hsl(220 40% 15%));
+    
+    --shadow-glow: 0 0 60px hsl(190 70% 50% / 0.5);
+    --shadow-card: 0 20px 40px hsl(220 50% 5% / 0.6);
+    --shadow-premium: 0 25px 50px hsl(43 90% 65% / 0.3);
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  /* AI-themed animations and effects */
+  .gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .glow-effect {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .card-premium {
+    background: var(--gradient-card);
+    box-shadow: var(--shadow-card);
+    transition: var(--transition-smooth);
+  }
+
+  .card-premium:hover {
+    box-shadow: var(--shadow-premium);
+    transform: translateY(-4px);
+  }
+
+  .hero-bg {
+    background: var(--gradient-hero);
+  }
+
+  /* Smooth transitions for all interactive elements */
+  .interactive {
+    transition: var(--transition-smooth);
+  }
+
+  .interactive:hover {
+    transform: translateY(-2px);
+  }
+}
