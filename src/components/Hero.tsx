@@ -23,14 +23,13 @@ export const Hero = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Powering Business{" "}
-            <span className="gradient-text">Intelligence</span>{" "}
-            with Advanced AI
+            Pioneering the next generation of{" "}
+            <span className="gradient-text">artificial intelligence</span>{" "}
+            solutions
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-            Powering Business Intelligence with Advanced AI solutions for Education & Exams. 
-            Delivering Verifiable Outcomes & Credible insights that Build Trust.
+            Transforming businesses with cutting-edge AI technology.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

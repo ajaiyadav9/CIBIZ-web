@@ -10,13 +10,16 @@ export const Navbar = () => {
     <nav className="fixed top-0 w-full bg-background/80 backdrop-blur-lg border-b border-border z-50">
       <div className="container mx-auto px-6">
         <div className="flex justify-between items-center h-20">
-          {/* Logo */}
-          <div className="flex items-center">
+          {/* Logo and Company Name */}
+          <div className="flex items-center gap-4">
             <img 
               src={logo} 
               alt="Colosseum Global Integrated Business LLP" 
-              className="h-16 w-auto"
+              className="h-20 w-auto"
             />
+            <span className="text-lg md:text-xl font-semibold text-foreground hidden sm:block">
+              Colosseum Global Integrated Business LLP
+            </span>
           </div>
 
           {/* Desktop Navigation */}
@@ -30,6 +33,9 @@ export const Navbar = () => {
             <a href="#contact" className="text-foreground hover:text-primary transition-colors">
               Contact
             </a>
+            <Button variant="outline" className="interactive">
+              Try it now
+            </Button>
             <Button variant="outline" className="interactive">
               Sign In
             </Button>
@@ -64,6 +70,9 @@ export const Navbar = () => {
                 Contact
               </a>
               <div className="flex flex-col space-y-2 pt-4">
+                <Button variant="outline" className="w-full">
+                  Try it now
+                </Button>
                 <Button variant="outline" className="w-full">
                   Sign In
                 </Button>
