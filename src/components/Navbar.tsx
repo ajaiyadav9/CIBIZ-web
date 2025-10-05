@@ -14,7 +14,7 @@ export const Navbar = () => {
           <div className="flex items-center">
             <img 
               src={logo} 
-              alt="Colosseum Global Integrated Business LLP" 
+              alt="Colosseum Global Integrated Business Network LLP" 
               className="h-16 w-auto"
             />
           </div>

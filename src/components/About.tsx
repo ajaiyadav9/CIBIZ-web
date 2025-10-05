@@ -34,7 +34,7 @@ export const About = () => {
           {/* Content */}
           <div>
             <div className="inline-block px-4 py-2 mb-6 bg-primary/10 border border-primary/20 rounded-full">
-              <span className="text-primary font-medium text-sm">About Colosseum Global Integrated Business LLP</span>
+              <span className="text-primary font-medium text-sm">About Colosseum Global Integrated Business Network LLP</span>
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
@@ -43,7 +43,7 @@ export const About = () => {
             </h2>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              At Colosseum Global Integrated Business LLP, we're pioneering the next generation of artificial 
+              At Colosseum Global Integrated Business Network LLP, we're pioneering the next generation of artificial 
               intelligence solutions. Our mission is to empower organizations with advanced AI tools 
               that transform raw data into actionable intelligence.
             </p>
