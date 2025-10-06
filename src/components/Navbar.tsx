@@ -11,12 +11,15 @@ export const Navbar = () => {
       <div className="container mx-auto px-6">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <div className="flex items-center">
+          <div className="flex items-center space-x-3">
             <img 
               src={logo} 
               alt="Colosseum Global Integrated Business Network LLP" 
               className="h-16 w-auto"
             />
+            <span className="hidden sm:inline-block text-lg font-semibold text-foreground">
+              Colosseum Global Integrated Business Network LLP
+            </span>
           </div>
 
           {/* Desktop Navigation */}
@@ -26,6 +29,9 @@ export const Navbar = () => {
             </a>
             <a href="#about" className="text-foreground hover:text-primary transition-colors">
               About Us
+            </a>
+            <a href="#experience" className="text-foreground hover:text-primary transition-colors">
+              Experience now
             </a>
             <a href="#contact" className="text-foreground hover:text-primary transition-colors">
               Contact
@@ -59,6 +65,9 @@ export const Navbar = () => {
               </a>
               <a href="#about" className="text-foreground hover:text-primary transition-colors">
                 About Us
+              </a>
+              <a href="#experience" className="text-foreground hover:text-primary transition-colors">
+                Experience now
               </a>
               <a href="#contact" className="text-foreground hover:text-primary transition-colors">
                 Contact
