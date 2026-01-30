@@ -34,10 +34,10 @@ export const Partners = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <div className="inline-block px-4 py-2 mb-6 bg-primary/10 border border-primary/20 rounded-full">
-            <span className="text-primary font-medium text-sm">Our Partners</span>
+            <span className="text-primary font-medium text-sm">Our Companion</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Authorized <span className="gradient-text">Partners</span>
+            Authorized <span className="gradient-text">Partner</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             We are proud to be authorized partners with leading technology companies, 
