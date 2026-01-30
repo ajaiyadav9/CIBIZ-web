@@ -48,12 +48,14 @@ export const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-6">Products</h4>
             <ul className="space-y-3 text-muted-foreground">
-              <li><a href="#" className="hover:text-primary transition-colors">ArthVishrad</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Drishti</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Smart Paper</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Attendance 360</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Samvaad</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">ShareNxt</a></li>
+              <li><a href="https://www.cibiz-experience.in" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Arthvisharad</a></li>
+              <li><a href="https://www.cibiz-experience.in" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Drishti</a></li>
+              <li><a href="https://www.cibiz-experience.in" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Smart Paper</a></li>
+              <li><a href="https://www.cibiz-experience.in" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Attendance 360</a></li>
+              <li><a href="https://www.cibiz-experience.in" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Samvaad</a></li>
+              <li><a href="https://www.cibiz-experience.in" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Samadhanika</a></li>
+              <li><a href="https://www.cibiz-experience.in" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Anuvadika</a></li>
+              <li><a href="https://www.cibiz-experience.in" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Abhigyan</a></li>
             </ul>
           </div>
 
@@ -71,7 +73,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-border/20 mt-12 pt-8 text-center text-muted-foreground">
-          <p>&copy; 2025 Colosseum Global Integrated Business LLP. All rights reserved.</p>
+          <p>&copy; 2026 Colosseum Global Integrated Business LLP. All rights reserved.</p>
         </div>
       </div>
     </footer>
