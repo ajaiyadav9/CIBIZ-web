@@ -75,6 +75,17 @@ export const Products = () => {
         "Handwritten text recognition",
         "Video & Audio attachments"
       ]
+    },
+    {
+      title: "Anuvadika",
+      description: "Advanced AI-powered translation and transcription solution that enables seamless multilingual communication across your organization with high accuracy.",
+      icon: MessageSquare,
+      features: [
+        "Multi-language translation",
+        "Real-time transcription",
+        "Voice-to-text conversion",
+        "Document translation"
+      ]
     }
   ];
 

@@ -32,9 +32,11 @@ export const ProductCard = ({ title, description, icon: Icon, features }: Produc
             ))}
           </ul>
         )}
-        <Button variant="outline" className="w-full interactive group-hover:bg-primary group-hover:text-primary-foreground">
-          Learn More
-        </Button>
+        <a href="https://www.cibiz-experience.in" target="_blank" rel="noopener noreferrer" className="w-full">
+          <Button variant="outline" className="w-full interactive group-hover:bg-primary group-hover:text-primary-foreground">
+            Learn More
+          </Button>
+        </a>
       </CardContent>
     </Card>
   );

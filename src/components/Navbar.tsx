@@ -30,7 +30,7 @@ export const Navbar = () => {
             <a href="#about" className="text-foreground hover:text-primary transition-colors">
               About Us
             </a>
-            <a href="#experience" className="text-foreground hover:text-primary transition-colors">
+            <a href="https://www.cibiz-experience.in" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">
               Experience now
             </a>
             <a href="#contact" className="text-foreground hover:text-primary transition-colors">
@@ -66,7 +66,7 @@ export const Navbar = () => {
               <a href="#about" className="text-foreground hover:text-primary transition-colors">
                 About Us
               </a>
-              <a href="#experience" className="text-foreground hover:text-primary transition-colors">
+              <a href="https://www.cibiz-experience.in" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">
                 Experience now
               </a>
               <a href="#contact" className="text-foreground hover:text-primary transition-colors">
