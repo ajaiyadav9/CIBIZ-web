@@ -5,7 +5,8 @@ import {
   FileText, 
   Users, 
   MessageSquare, 
-  TrendingUp 
+  TrendingUp,
+  QrCode
 } from "lucide-react";
 
 export const Products = () => {
@@ -85,6 +86,17 @@ export const Products = () => {
         "Real-time transcription",
         "Voice-to-text conversion",
         "Document translation"
+      ]
+    },
+    {
+      title: "Abhigyan",
+      description: "Offline QR-based solution to identify a person. Stores image, text, ID number and contact details securely for quick and reliable identification.",
+      icon: QrCode,
+      features: [
+        "Offline QR identification",
+        "Image & text storage",
+        "ID number management",
+        "Contact details integration"
       ]
     }
   ];
