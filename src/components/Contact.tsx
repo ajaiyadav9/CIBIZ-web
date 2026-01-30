@@ -83,7 +83,11 @@ export const Contact = () => {
                 />
               </div>
               
-              <Button className="w-full glow-effect interactive" size="lg">
+              <Button 
+                className="w-full glow-effect interactive" 
+                size="lg"
+                onClick={() => window.location.href = 'mailto:info@cibiz.co.in'}
+              >
                 Send Message
               </Button>
             </CardContent>

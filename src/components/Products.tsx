@@ -11,7 +11,7 @@ import {
 export const Products = () => {
   const products = [
     {
-      title: "ArthVishrad",
+      title: "Arthvisharad",
       description: "Advanced examination data analysis tool that provides deep insights into post-examination data, helping educational institutions improve assessment quality and student outcomes.",
       icon: Search,
       features: [
@@ -66,14 +66,14 @@ export const Products = () => {
       ]
     },
     {
-      title: "ShareNxt",
-      description: "Advanced share market prediction tool powered by Large Language Models and Natural Language Processing to help investors make informed decisions.",
+      title: "Samadhanika",
+      description: "AI based Complaint Management System with Email, Chatbot, QR based Web support for handling complaints, feedbacks and inputs. Support Handwritten text, Video, audio attachments for stakeholders assignment.",
       icon: TrendingUp,
       features: [
-        "LLM-powered predictions",
-        "Market trend analysis",
-        "Risk assessment",
-        "Investment insights"
+        "Email & Chatbot support",
+        "QR based Web interface",
+        "Handwritten text recognition",
+        "Video & Audio attachments"
       ]
     }
   ];
