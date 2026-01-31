@@ -34,12 +34,16 @@ export const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="glow-effect interactive px-8 py-4 text-lg">
-              Explore Products
-            </Button>
-            <Button variant="outline" size="lg" className="interactive px-8 py-4 text-lg">
-              Contact Sales
-            </Button>
+            <a href="#products">
+              <Button size="lg" className="glow-effect interactive px-8 py-4 text-lg">
+                Explore Products
+              </Button>
+            </a>
+            <a href="#contact">
+              <Button variant="outline" size="lg" className="interactive px-8 py-4 text-lg">
+                Contact Sales
+              </Button>
+            </a>
           </div>
         </div>
       </div>
