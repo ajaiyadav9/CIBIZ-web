@@ -1,4 +1,10 @@
+import { useState } from "react";
+import { LegalDialog } from "./LegalDialog";
+
 export const Footer = () => {
+  const [privacyOpen, setPrivacyOpen] = useState(false);
+  const [termsOpen, setTermsOpen] = useState(false);
+
   return (
     <footer className="bg-secondary text-secondary-foreground py-16">
       <div className="container mx-auto px-6">
@@ -65,17 +71,35 @@ export const Footer = () => {
             <ul className="space-y-3 text-muted-foreground">
               <li><a href="#about" className="hover:text-primary transition-colors">About Us</a></li>
               <li><a href="#contact" className="hover:text-primary transition-colors">Contact</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Terms of Service</a></li>
+              <li><a href="#contact" className="hover:text-primary transition-colors">Careers</a></li>
+              <li>
+                <button 
+                  onClick={() => setPrivacyOpen(true)} 
+                  className="hover:text-primary transition-colors text-left"
+                >
+                  Privacy Policy
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => setTermsOpen(true)} 
+                  className="hover:text-primary transition-colors text-left"
+                >
+                  Terms of Service
+                </button>
+              </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-border/20 mt-12 pt-8 text-center text-muted-foreground">
-          <p>&copy; 2026 Colosseum Global Integrated Business LLP. All rights reserved.</p>
+          <p>&copy; 2026 Colosseum Global Integrated Network Business LLP. All rights reserved.</p>
         </div>
       </div>
+
+      {/* Legal Dialogs */}
+      <LegalDialog open={privacyOpen} onOpenChange={setPrivacyOpen} type="privacy" />
+      <LegalDialog open={termsOpen} onOpenChange={setTermsOpen} type="terms" />
     </footer>
   );
 };
